@@ -30,7 +30,7 @@
 			</Input>
 			<Label text="Name"></Label>
 			<Text text="{/firstName} {/lastName}"></Text>
-			<Label text="Enabled"></Label>
+			<Label text="{i18n>enabled}"></Label>
 			<CheckBox selected="{/enabled}"/>			
 		</form:SimpleForm>
 	</Panel>
